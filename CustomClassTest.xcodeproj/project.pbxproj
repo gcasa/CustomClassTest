@@ -11,6 +11,7 @@
 		141FF6732639E9A200601193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141FF6722639E9A200601193 /* Assets.xcassets */; };
 		141FF6762639E9A200601193 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141FF6742639E9A200601193 /* MainMenu.xib */; };
 		141FF6792639E9A200601193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141FF6782639E9A200601193 /* main.m */; };
+		141FF6832646179A00601193 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 141FF6822646179A00601193 /* MyButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		141FF6772639E9A200601193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141FF6782639E9A200601193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		141FF67A2639E9A200601193 /* CustomClassTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomClassTest.entitlements; sourceTree = "<group>"; };
+		141FF6812646179A00601193 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		141FF6822646179A00601193 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				141FF6772639E9A200601193 /* Info.plist */,
 				141FF6782639E9A200601193 /* main.m */,
 				141FF67A2639E9A200601193 /* CustomClassTest.entitlements */,
+				141FF6812646179A00601193 /* MyButton.h */,
+				141FF6822646179A00601193 /* MyButton.m */,
 			);
 			path = CustomClassTest;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141FF6832646179A00601193 /* MyButton.m in Sources */,
 				141FF6792639E9A200601193 /* main.m in Sources */,
 				141FF6712639E99E00601193 /* AppDelegate.m in Sources */,
 			);
